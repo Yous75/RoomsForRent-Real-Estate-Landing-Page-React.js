@@ -1,0 +1,38 @@
+.dream-house{
+    background-color:var(--pink1);
+    height:90vh;
+    display:flex;
+}
+.dream-left-container{
+    width:50%;
+    height:100%;
+}
+.dream-left-container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dream-right-container{
+    width:50%;
+    height:100%;
+    padding:80px 40px;
+}
+.dream-right-container > h2{
+    font-size:40px;
+    font-weight:700;
+    color:var(--black1);
+    margin-bottom:15px;
+}
+.dream-right-container > p{
+    font-weight:400;
+    font-size:14px;
+    color:var(--grey2);
+}
+
+.dream-cards{
+    display:flex;
+    height:70%;
+    align-items:center;
+    justify-content:space-between;
+}
+

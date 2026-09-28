@@ -1,0 +1,34 @@
+.blogcard{
+    width:25%;
+    height:98%;
+    border-radius:10px;
+    background-color:white;
+    text-align:center;
+}
+.blogcard-img{
+    height:60%;
+    width:100%;
+
+}
+.blogcard-img > img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+.blogcard-info{
+    padding:20px 15px;
+}
+.blogcard-info > h4{
+    font-size:18px;
+    font-weight:600;
+    color:var(--black1);
+    margin-bottom:10px;
+}
+.blogcard-info > button{
+    border:none;
+    color:var(--red1);
+    font-weight:600;
+    font-size:14px;
+    background-color:white;
+}

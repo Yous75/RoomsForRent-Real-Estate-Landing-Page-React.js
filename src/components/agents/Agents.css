@@ -1,0 +1,30 @@
+.agents-container{
+    height:70vh;
+    margin-top:80px;
+    padding:0px 40px;
+}
+.agents-container > h2{
+    font-size:45px;
+    font-weight:700;
+    color:var(--black1);
+    margin-bottom:10px;
+    text-align:center;
+}
+.agents-container > p{
+    font-size:14px;
+    font-weight:400;
+    color:var(--grey1);
+    text-align:center;
+}
+.agents-cards{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    height:60%;
+    margin-top:30px; 
+}
+.agents-container > p > span{
+    color:var(--red1);
+    text-decoration: underline;
+}

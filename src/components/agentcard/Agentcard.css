@@ -1,0 +1,48 @@
+.agentcard{
+    height:100%;
+    width:25%;
+}
+.agentcard > img{
+    height:60%;
+    width:100%;
+    object-fit:cover;
+    border-radius:10px;
+    
+}
+.agent-info{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 0px;
+}
+.info-text > h3{
+    font-size:18px;
+    font-weight:600;
+    color:var(--black1);
+
+}
+.info-text > p{
+    font-size:12px;
+    font-weight:400;
+    color:var(--grey1);
+
+}
+.info-buttons{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+}
+.info-buttons > button {
+    width:40px;
+    height:40px;
+    border-radius:30px;
+    background-color:white;
+    color:var(--grey1);
+    border:1px solid grey;
+}
+.info-buttons > button:hover{
+    border:none;
+    background-color:var(--red1);
+    color:white;
+}

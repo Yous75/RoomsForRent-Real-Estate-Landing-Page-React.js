@@ -1,0 +1,16 @@
+*{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-decoration:none;
+  font-family:"Poppins";
+  box-sizing:border-box;
+}
+:root{
+    --red1:#CC0001;
+    --grey1:#8E8E93;
+    --black1:#1C1C1E;
+    --pink1:#EFB0B0;
+    --grey2:#3A3A3C;
+    --orange1:#FFA920;
+}

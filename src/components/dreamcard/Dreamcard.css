@@ -1,0 +1,39 @@
+.dreamcard{
+    width:48%;
+    height:70%;
+    border-radius:10px;
+    background-color:white;
+}
+.dreamcard-img{
+    height:60%;
+    width:100%;
+
+}
+.dreamcard-img > img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px 10px 0px 0px;
+}
+.dreamcard-info{
+    padding:20px 15px;
+}
+.dreamcard-info > h4{
+    font-size:18px;
+    font-weight:600;
+    color:var(--black1);
+    margin-bottom:10px;
+}
+.dreamcard-info > p{
+    font-size:12px;
+    font-weight:400;
+    color:var(--grey2);
+    margin-bottom:10px;
+}
+.dreamcard-info > button{
+    border:none;
+    color:var(--orange1);
+    font-weight:600;
+    font-size:14px;
+    background-color:white;
+}

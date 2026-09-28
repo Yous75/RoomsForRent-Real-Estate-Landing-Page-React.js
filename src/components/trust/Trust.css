@@ -1,0 +1,13 @@
+.trust-container{
+    height:fit-content;
+    margin-top:180px;
+    text-align:center;
+}
+.companies{
+    height:fit-content;
+    margin-top:20px;
+}
+.trust-container > h2{
+    font-size:16px;
+    font-weight:800;
+}

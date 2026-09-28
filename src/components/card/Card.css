@@ -1,0 +1,18 @@
+.card{
+    text-align:center;
+}
+
+.card img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.card h3{
+    margin-top:15px;
+}
+
+.card p{
+    color:gray;
+}
